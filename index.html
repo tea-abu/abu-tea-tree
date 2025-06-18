@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>云南勐县普洱茶风味地图</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <!-- 顶部品牌区 -->
+  <div class="brand-header" style="background:#e3f0fa;padding:2em 0 1em 0;text-align:center;">
+    <!-- LOGO已删除 -->
+    <h1 style="font-size:2.3em;font-weight:700;margin:0.2em 0 0.1em 0;color:#223a5e;">阿布古树茶 / Abu Ancient Tree Tea</h1>
+    <div style="color:#6a8bb7;font-size:1.1em;margin-bottom:1em;">云南西双版纳勐海县 | Yunnan Xishuangbanna Menghai County</div>
+  </div>
+
+  <!-- 顶部导航 -->
+  <nav class="navbar" aria-label="主导航" style="background:#e3f0fa;box-shadow:0 2px 8px #d0dbe8;">
+    <ul style="display:flex;justify-content:center;gap:2em;list-style:none;margin:0;padding:1em 0;">
+           <li><a href="#contact">联系方式 / Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- 主视觉区 -->
+    <header class="hero" id="hero" style="text-align:center;">
+      <img src="logo.jpg" alt="阿布古树茶LOGO" style="width:100px;height:100px;border-radius:50%;box-shadow:0 2px 8px #b3c6e0;margin:2em 0 1em 0;">
+      <img src="关於我-0.jpg" alt="阿布茶艺师肖像" class="hero-img" loading="lazy" style="width:110px;height:110px;border-radius:50%;object-fit:cover;box-shadow:0 2px 8px #b3c6e0;margin:0 1em;">
+      <h2 style="font-size:1.7em;font-weight:600;color:#223a5e;margin:1em 0 0.5em 0;">欢迎来到我的茶世界 / Welcome to My Tea World</h2>
+    </header>
+
+    <!-- 快速入口 -->
+    <section class="quick-links" aria-label="快速入口">
+      <button onclick="location.href='#flavor-cards'" aria-label="跳转到产区风味" tabindex="0">产区风味</button>
+      <button onclick="location.href='#notes'" aria-label="跳转到品饮笔记" tabindex="0">品饮笔记</button>
+      <button onclick="location.href='#guide'" aria-label="跳转到新手指南" tabindex="0">新手指南</button>
+          </section>
+
+    <!-- 简要介绍 -->
+    <section id="intro" class="intro" aria-label="普洱茶与勐县风土简介">
+      <h2>普洱茶与勐县风土简介</h2>
+      <p>普洱茶源自云南，勐县地理多样，气候湿润，孕育出丰富多样的茶叶风味。这里的普洱茶以其独特的口感、香气和色泽闻名于世。</p>
+      <div style="display:flex;gap:1.5em;justify-content:center;flex-wrap:wrap;margin:2em 0;">
+        <div style="text-align:center;">
+          <img src="place-3.jpg" alt="勐县村落风貌0" style="width:150px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;">
+          <div style="margin-top:0.5em;font-size:0.98em;color:#666;">晨雾中的村落</div>
+        </div>
+        <div style="text-align:center;">
+          <img src="place-4.jpg" alt="勐县村落风貌1" style="width:150px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;">
+          <div style="margin-top:0.5em;font-size:0.98em;color:#666;">茶山环抱村寨</div>
+        </div>
+        <div style="text-align:center;">
+          <img src="place-5.jpg" alt="勐县村落风貌2" style="width:150px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;">
+          <div style="margin-top:0.5em;font-size:0.98em;color:#666;">勐县传统村落</div>
+        </div>
+        <div style="text-align:center;">
+          <img src="place-6.jpg" alt="勐县村落风貌3" style="width:150px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;">
+          <div style="margin-top:0.5em;font-size:0.98em;color:#666;">茶山与村寨相依</div>
+        </div>
+        <div style="text-align:center;">
+          <img src="place-7.jpg" alt="勐县村落风貌4" style="width:150px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;">
+          <div style="margin-top:0.5em;font-size:0.98em;color:#666;">原生态茶乡风情</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 产区风味卡片 -->
+    <section id="flavor-cards" class="flavor-cards" aria-label="产区风味一览">
+      <h2>产区风味一览</h2>
+      <div class="card-list">
+        <div class="card">
+          <h3>勐海</h3>
+          <p><strong>代表茶区：</strong>布朗山、南糯山</p>
+          <p><strong>口感：</strong>浓厚醇滑，回甘强烈</p>
+          <p><strong>香气：</strong>陈香、樟香</p>
+          <p><strong>色泽：</strong>深琥珀色</p>
+        </div>
+        <div class="card">
+          <h3>勐库</h3>
+          <p><strong>代表茶区：</strong>冰岛村、大雪山</p>
+          <p><strong>口感：</strong>细腻甜润，层次丰富</p>
+          <p><strong>香气：</strong>花果香、蜜香</p>
+          <p><strong>色泽：</strong>金黄明亮</p>
+        </div>
+        <div class="card">
+          <h3>景迈山</h3>
+          <p><strong>代表茶区：</strong>景迈古树茶园</p>
+          <p><strong>口感：</strong>蜜香醇厚，生津快</p>
+          <p><strong>香气：</strong>兰香、木香</p>
+          <p><strong>色泽：</strong>橙黄透亮</p>
+        </div>
+        <!-- 可继续添加更多产区 -->
+      </div>
+      <div style="margin:2em 0 0 0;">
+        <h3 style="color:#388e3c;text-align:center;font-size:1.2em;margin-bottom:1em;">茶区采摘与制茶风貌</h3>
+        <div style="display:flex;gap:1em;justify-content:center;flex-wrap:wrap;">
+          <div style="text-align:center;"><img src="采製茶-1.jpg" alt="茶山采摘1" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">古树茶采摘</div></div>
+          <div style="text-align:center;"><img src="采製茶-3.jpg" alt="茶山采摘2" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">高树攀采</div></div>
+          <div style="text-align:center;"><img src="采製茶-4.jpg" alt="茶山采摘3" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">林间采茶</div></div>
+          <div style="text-align:center;"><img src="采製茶-5.jpg" alt="茶山采摘4" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">生态茶园</div></div>
+          <div style="text-align:center;"><img src="采製茶-6.jpg" alt="茶山采摘5" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">手工采摘</div></div>
+          <div style="text-align:center;"><img src="采製茶-7.jpg" alt="初制摊晾" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">初制摊晾</div></div>
+          <div style="text-align:center;"><img src="采製茶-8.jpg" alt="杀青工序" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">杀青工序</div></div>
+          <div style="text-align:center;"><img src="采製茶-9.jpg" alt="揉捻工序" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">揉捻工序</div></div>
+          <div style="text-align:center;"><img src="采製茶-10.jpg" alt="晒青毛茶" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">晒青毛茶</div></div>
+          <div style="text-align:center;"><img src="采製茶-11.jpg" alt="分拣挑选" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">分拣挑选</div></div>
+          <div style="text-align:center;"><img src="采製茶-12.jpg" alt="手工揉捻" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">手工揉捻</div></div>
+          <div style="text-align:center;"><img src="采製茶-13.jpg" alt="毛茶晾晒" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">毛茶晾晒</div></div>
+          <div style="text-align:center;"><img src="采製茶-14.jpg" alt="毛茶堆放" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">毛茶堆放</div></div>
+          <div style="text-align:center;"><img src="采製茶-15.jpg" alt="毛茶分级" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">毛茶分级</div></div>
+          <div style="text-align:center;"><img src="采製茶-16.jpg" alt="毛茶存储" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">毛茶存储</div></div>
+          <div style="text-align:center;"><img src="采製茶-17.jpg" alt="毛茶运输" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">毛茶运输</div></div>
+          <div style="text-align:center;"><img src="采製茶-18.jpg" alt="毛茶加工" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">毛茶加工</div></div>
+          <div style="text-align:center;"><img src="采製茶-19.jpg" alt="成品茶展示" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">成品茶展示</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 品饮笔记 -->
+    <section id="notes" class="notes" aria-label="品饮笔记">
+      <h2>品饮笔记</h2>
+      <div class="note-list">
+        <div class="note-card">
+          <img src="product-1.jpg" alt="布朗古树茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>帕沙古树</h4>
+          <p>口感：醇厚顺滑，回甘快</p>
+          <p>香气：陈香明显</p>
+          <p>色泽：深琥珀</p>
+        </div>
+        <div class="note-card">
+          <img src="product-2.jpg" alt="白莺山茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>白富美</h4>
+          <p>口感：细腻甜润，层次丰富</p>
+          <p>香气：花果香</p>
+          <p>色泽：金黄明亮</p>
+        </div>
+        <div class="note-card">
+          <img src="product-3.jpg" alt="昔归茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>帕沙古树</h4>
+          <p>口感：饱满有劲，回甘生津</p>
+          <p>香气：蜜香、果香</p>
+          <p>色泽：橙黄透亮</p>
+        </div>
+        <div class="note-card">
+          <img src="product-4.jpg" alt="易武茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>茗品山</h4>
+          <p>口感：柔和细腻，甜润悠长</p>
+          <p>香气：兰香、花香</p>
+          <p>色泽：金黄明亮</p>
+        </div>
+        <div class="note-card">
+          <img src="product-5.jpg" alt="南糯山茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>来自大山</h4>
+          <p>口感：醇厚饱满，回甘快</p>
+          <p>香气：果香、蜜香</p>
+          <p>色泽：深琥珀</p>
+        </div>
+        <div class="note-card">
+          <img src="product-6.jpg" alt="冰岛茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>雅韵</h4>
+          <p>口感：甜润细腻，层次丰富</p>
+          <p>香气：花果香、蜜香</p>
+          <p>色泽：金黄明亮</p>
+        </div>
+        <div class="note-card">
+          <img src="product-7.jpg" alt="大雪山茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>曼糯</h4>
+          <p>口感：厚实饱满，回甘生津</p>
+          <p>香气：木香、花香</p>
+          <p>色泽：橙黄明亮</p>
+        </div>
+        <div class="note-card">
+          <img src="product-8.jpg" alt="景迈山茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>自林山</h4>
+          <p>口感：蜜香醇厚，生津快</p>
+          <p>香气：兰香、木香</p>
+          <p>色泽：橙黄透亮</p>
+        </div>
+        <div class="note-card">
+          <img src="product-11.jpg" alt="布朗山小沱茶" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>曼糯单株</h4>
+          <p>口感：浓郁饱满，回甘强烈</p>
+          <p>香气：陈香、樟香</p>
+          <p>色泽：深琥珀色</p>
+        </div>
+        <div class="note-card">
+          <img src="product-12.jpg" alt="林间末茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>林间草木</h4>
+          <p>口感：细腻柔和，回甘悠长</p>
+          <p>香气：花香、蜜香</p>
+          <p>色泽：金黄明亮</p>
+        </div>
+        <div class="note-card">
+          <img src="product-13.jpg" alt="创有林茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>国有林</h4>
+          <p>口感：饱满醇厚，回甘快</p>
+          <p>香气：果香、木香</p>
+          <p>色泽：橙黄明亮</p>
+        </div>
+        <div class="note-card">
+          <img src="product-19.jpg" alt="甲爱沟茶饼" style="width:100%;border-radius:8px;margin-bottom:0.5em;">
+          <h4>甲象沟</h4>
+          <p>口感：醇厚甘润，层次分明</p>
+          <p>香气：山野花香</p>
+          <p>色泽：金黄明亮</p>
+        </div>
+      </div>
+      <div style="margin:2em 0 0 0;">
+        <h3 style="color:#388e3c;text-align:center;font-size:1.1em;margin-bottom:1em;">普洱茶品饮与茶汤色泽</h3>
+        <div style="display:flex;gap:1em;justify-content:center;flex-wrap:wrap;">
+          <div style="text-align:center;"><img src="品茶-茶色-1.jpg" alt="茶汤色泽1" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">多样茶汤色</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-2.jpg" alt="品茶场景1" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">山间品茶</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-3.jpg" alt="干茶展示" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">干茶展示</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-4.jpg" alt="品饮器具" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">品饮器具</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-5.jpg" alt="冲泡过程" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">冲泡过程</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-6.jpg" alt="茶汤品评1" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">茶汤品评</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-7.jpg" alt="茶汤品评2" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">茶汤品评</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-8.jpg" alt="茶汤品评3" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">茶汤品评</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-9.jpg" alt="品饮交流" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">品饮交流</div></div>
+          <div style="text-align:center;"><img src="品茶-茶色-10.jpg" alt="叶底展示" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">叶底展示：一芽二叶与大叶种对比</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 新手指南 -->
+    <section id="guide" class="guide" aria-label="新手指南">
+      <h2>新手指南</h2>
+      <ul>
+        <li><strong>普洱茶基础知识：</strong> 普洱茶起源于中国云南，分为生茶与熟茶。生茶采用晒青毛茶为原料，经自然陈化，口感清新、回甘快，适合长期存放；熟茶则通过渥堆发酵工艺，茶汤红浓、口感醇厚顺滑。主要产区包括勐海、勐库、景迈山等。优质普洱茶外形条索紧结、色泽油润，香气纯正，叶底柔软有活力。了解普洱茶的年份、仓储、转化过程，有助于品鉴和收藏。</li>
+        <li><strong>冲泡技巧：</strong> 建议选用紫砂壶、盖碗等茶具。投茶量一般为5-8克/120ml，生茶水温95-100℃，熟茶可用沸水。醒茶（洗茶）1-2次，首泡5-8秒，后续每泡递增3-5秒。注重出汤速度，避免闷泡。冲泡过程中可观察茶汤色泽、闻香、品味回甘。不同产区、年份、工艺的普洱茶可适当调整参数，建议多尝试，找到最适合自己口味的冲泡方式。</li>
+        <li><strong>选购建议：</strong> 选购普洱茶时，优先选择知名产区、品牌和有保障的渠道。观察茶饼外观是否匀整、无杂质，闻干茶有无异味。品饮时茶汤应清澈明亮，入口顺滑、无苦涩杂味。生茶应有鲜爽活力，熟茶应醇厚无堆味。注意查看生产日期、批次、仓储环境。根据个人口感偏好选择不同产区和年份的茶品，建议新手先从小样或分装试喝，逐步建立自己的品饮经验。</li>
+      </ul>
+      <div style="margin:2em 0 0 0;">
+        <h3 style="color:#388e3c;text-align:center;font-size:1.1em;margin-bottom:1em;">普洱茶原料与初制工艺</h3>
+        <div style="display:flex;gap:1em;justify-content:center;flex-wrap:wrap;">
+          <div style="text-align:center;"><img src="茶菁-1.jpg" alt="鲜叶采摘" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">鲜叶采摘</div></div>
+          <div style="text-align:center;"><img src="茶菁-2.jpg" alt="茶园采摘" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">茶园采摘</div></div>
+          <div style="text-align:center;"><img src="茶菁-3.jpg" alt="芽叶甄选" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">芽叶甄选</div></div>
+          <div style="text-align:center;"><img src="茶菁-4.jpg" alt="茶树新芽" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">茶树新芽</div></div>
+          <div style="text-align:center;"><img src="茶菁-5.jpg" alt="竹篓收集" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">竹篓收集</div></div>
+          <div style="text-align:center;"><img src="茶菁-6.jpg" alt="摊晾萎凋" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">摊晾萎凋</div></div>
+          <div style="text-align:center;"><img src="茶菁-7.jpg" alt="初制原料" style="width:110px;height:150px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">初制原料</div></div>
+          <div style="text-align:center;"><img src="茶菁-8.jpg" alt="杀青工序" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">杀青工序</div></div>
+          <div style="text-align:center;"><img src="茶菁-9.jpg" alt="揉捻工序" style="width:110px;height:90px;object-fit:cover;border-radius:10px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">揉捻工序</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about" aria-label="关于我们" style="max-width:900px;margin:2em auto 2em auto;padding:2em 2em 1em 2em;background:#fff;border-radius:24px;box-shadow:0 4px 24px rgba(56,142,60,0.06);">
+      <h2 style="color:#223a5e;font-size:2em;font-weight:700;margin-top:0;">自我介绍 / About Me</h2>
+      <p style="font-size:1.1em;line-height:1.8;">我叫阿布，出生并成长于云南西双版纳的勐海县。自小便浸润于茶香之间，熟悉采普洱茶、制茶、品茶与分享的全过程。以古树茶原生态为核心理念，我坚持传统手工技艺，追求天然纯净的风味。每一泡茶都承载着山林的气息与时光的温度，愿与更多喜爱茶文化的朋友共品此味，共赏此情。</p>
+      <p style="font-style:italic;color:#444;">My name is Abu, born and raised in Menghai, Xishuangbanna, Yunnan. From picking Pu-erh tea to processing, tasting, and sharing, I've immersed myself in tea since childhood. I focus on ecological ancient tree tea, insisting on traditional handcrafting and pure natural taste. Every sip carries the fragrance of the forest and the warmth of time. Let's enjoy tea together.</p>
+      <div style="margin:2em 0 0 0;text-align:center;">
+        <img src="avatar.jpg" alt="阿布茶艺师头像" style="max-width:200px;border-radius:50%;box-shadow:0 2px 12px #b3c6e0;">
+      </div>
+      <div style="display:flex;gap:1em;justify-content:center;flex-wrap:wrap;margin:2em 0 0 0;">
+        <div style="text-align:center;"><img src="关於我-0.jpg" alt="阿布生活照1" style="width:110px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">茶山日常</div></div>
+        <div style="text-align:center;"><img src="关於我-1.jpg" alt="阿布生活照2" style="width:110px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">采茶时光</div></div>
+        <div style="text-align:center;"><img src="关於我-2.jpg" alt="阿布生活照3" style="width:110px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">制茶工艺</div></div>
+        <div style="text-align:center;"><img src="关於我-3.jpg" alt="阿布生活照4" style="width:110px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">民族风情</div></div>
+        <div style="text-align:center;"><img src="关於我-4.jpg" alt="阿布生活照5" style="width:110px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">山林劳作</div></div>
+        <div style="text-align:center;"><img src="关於我-5.jpg" alt="阿布生活照6" style="width:110px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">攀树采茶</div></div>
+        <div style="text-align:center;"><img src="关於我-6.jpg" alt="阿布生活照7" style="width:110px;height:150px;object-fit:cover;border-radius:12px;box-shadow:0 2px 8px #b3c6e0;"><div style="font-size:0.95em;color:#666;margin-top:0.3em;">原野采摘</div></div>
+      </div>
+    </section>
+
+    <!-- 联系方式 / Contact -->
+    <section id="contact" class="contact" aria-label="联系方式" style="max-width:600px;margin:2em auto 2em auto;padding:2em;background:#f8fafc;border-radius:18px;box-shadow:0 2px 12px #b3c6e0;">
+      <h2 style="color:#223a5e;font-size:1.6em;font-weight:700;margin-top:0;">联系方式 / Contact</h2>
+      <div style="font-size:1.1em;line-height:2.1;">
+        <b>姓名 / Name：</b> 阿布 / Abu<br>
+        <b>电话 / Phone：</b> 13682526768<br>
+        <b>微信号 / WeChat：</b> zhangjianqin141319<br>
+        <b>地址 / Address：</b> 广东省深圳市龙岗区龙河路东方国际茶都~*阿布古茶坊*G208~<br>       
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div style="text-align:center; color:#888; padding:1em 0; font-size:0.95em;">
+      &copy; 2024 云南勐县普洱茶风味地图
+    </div>
+  </footer>
+</body>
+</html>
